@@ -38,7 +38,7 @@ export default function TypingGame({ onComplete }: TypingGameProps) {
 
   const startGame = () => {
     setIsGameActive(true)
-    setTimeLeft(30)
+    setTimeLeft(60)
     setScore(0)
     setUserInput("")
   }
